@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Josefin+Sans&family=Montserrat:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Rent a car</title>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <a>
+                <li class="first">Home</li>
+            </a>
+            <a href="./terms.html">
+                <li>Rental terms</li>
+            </a>
+            <a href="./vehicles.html">
+                <li>Rent a car vehicles</li>
+            </a>
+            <a href="#contact">
+                <li>Contact</li>
+            </a>
+        </ul>
+        <div id="date">
+            <form action="">
+                <label for="city">Choose location:</label>
+                <select name="city" id="city">
+                    <option value="volvo">Belgrade</option>
+                    <option value="saab">Novi Sad</option>
+                    <option value="mercedes">Niš</option>
+                    <option value="audi">Kragujevac</option>
+                  </select>
+                <label for="dateFrom">Pick up date:</label>
+                <input type="date" id="dateFrom">
+                <label for="dateTo">Return date:</label>
+                <input type="date" id="dateTo">
+                <input type="submit" id="submit" value="Search">
+            </form>
+        </div>
+    </header>
+    <div id="available">
+        <div id="notA">
+            Please enter values to check vehicle availability...
+        </div>
+        <div id="avai" class="d">
+            <div class="card">
+                <img src="./img/bmw 5.jpg" style="width:100%; height: 220px;">
+                <div class="container">
+                    <h3><b>BMW 5</b></h3>
+                    <i class="fas fa-male"></i> x5
+                    <i class="fas fa-gas-pump"></i> Diezel
+                    <i class="fas fa-pager"></i> x5
+                    <i class="fas fa-cogs"></i> Automatic<br>
+                    <h4>Price: 30&#128;/per day</h4>
+
+                </div>
+                <button>Reserve</button>
+            </div>
+
+            <div class="card">
+                <img src="./img/fiesta.png" style="width:100%; height: 220px;">
+                <div class="container">
+                    <h3><b>Ford Fiesta</b></h3>
+                    <i class="fas fa-male"></i> x5
+                    <i class="fas fa-gas-pump"></i> Diezel
+                    <i class="fas fa-pager"></i> x5
+                    <i class="fas fa-cogs"></i> Manual<br>
+                    <h4>Price: 14&#128;/per day</h4>
+
+                </div>
+                <button>Reserve</button>
+            </div>
+
+            <div class="card">
+                <img src="./img/hyundai-i20.jpeg" style="width:100%; height: 220px;">
+                <div class="container">
+                    <h3><b>Hyndai i20</b></h3>
+                    <i class="fas fa-male"></i> x5
+                    <i class="fas fa-gas-pump"></i> Petrol
+                    <i class="fas fa-pager"></i> x5
+                    <i class="fas fa-cogs"></i> Manual<br>
+                    <h4>Price: 16&#128;/per day</h4>
+
+                </div>
+                <button>Reserve</button>
+            </div>
+
+            <div class="card">
+                <img src="./img/kia proceed.png" style="width:100%; height: 220px;">
+                <div class="container">
+                    <h3><b>Kia ProCeed</b></h3>
+                    <i class="fas fa-male"></i> x5
+                    <i class="fas fa-gas-pump"></i> Petrol
+                    <i class="fas fa-pager"></i> x5
+                    <i class="fas fa-cogs"></i> Manual<br>
+                    <h4>Price: 22&#128;/per day</h4>
+
+                </div>
+                <button>Reserve</button>
+            </div>
+
+            <div class="card">
+                <img src="./img/b200.jpg" style="width:100%; height: 220px;">
+                <div class="container">
+                    <h3><b>Mercedes Benz B200</b></h3>
+                    <i class="fas fa-male"></i> x5
+                    <i class="fas fa-gas-pump"></i> Diezel
+                    <i class="fas fa-pager"></i> x5
+                    <i class="fas fa-cogs"></i> Automatic<br>
+                    <h4>Price: 28&#128;/per day</h4>
+
+                </div>
+                <button>Reserve</button>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div id="about1">
+            <h3>Rent a Car Belgrade</h3>
+            <p>Rent a car Belgrade is a Serbian rent a car agency, founded in Belgrade in 2022. <br>Car rental is our priority today and the main business we have been doing for nineteen years. Our clients are international, tourist and business travelers
+                in Serbia, as well as foreign and domestic companies in Belgrade.Our cars are delivered to more than 160 hotels and apartments in Belgrade. <br> Why choose Rent A Car Belgrade? <br>We have a large fleet of new cars with automatic and manual
+                transmission, which are absolutely technically correct and insured against all types of damage. We offer fast and professional service, as well as extremely affordable car rental prices. We communicate with our clients in Serbian, English,
+                Greek and Russian.
+            </p>
+        </div>
+        <img src="./img/Rent a Car-logo-white.png" alt="">
+
+
+    </div>
+
+    <div id="ourCars">
+        <h1>We single out from our offer for you</h1>
+        <div id="carsList">
+            <div id="list1">
+                <div class="car1 used">BMW M2</div>
+                <div class="car2 notUsed">Renault Kadjar</div>
+                <div class="car3 notUsed">Kia Sportage</div>
+            </div>
+            <div id="list2">
+                <img src="./img/bmwm2.jpg" class="car1">
+                <img src="./img/renaut kadjar.jpg" class="car2 d">
+                <img src="./img/kia_sportage.jpg" class="car3 d">
+            </div>
+            <div id="list3">
+                <p class="car1">The BMW M2 is a high-performance version of the BMW 2 Series automobile developed by BMW's motorsport division, BMW M GmbH.</p>
+                <p class="car2 d">Renault claims the Kadjar name is based on two words: Kad is inspired by quad to represent a go anywhere four wheeled vehicle, and Jar recalls the French words agile and jaillir respectively representing agility and suddenly emerging from
+                    somewhere.
+                </p>
+                <p class="car3 d">Kia unveiled its newly redesigned Sportage at the Frankfurt Motor Show in September 2015, and brought it to market in 2016 (as a 2017 model in North America). The company said the contrasting sharp edges and smooth surfaces were inspired
+                    by modern fighter jets.</p>
+                <div class="car1">
+                    <div><i class="fas fa-check-circle"></i>2018 year</div>
+                    <div><i class="fas fa-check-circle"></i>Diesel</div>
+                    <div><i class="fas fa-check-circle"></i>Automatic</div>
+                    <div><i class="fas fa-check-circle"></i>5 doors</div>
+                    <div><i class="fas fa-check-circle"></i>Full equipment</div>
+                </div>
+                <div class="car2 d">
+                    <div><i class="fas fa-check-circle"></i>2021 year</div>
+                    <div><i class="fas fa-check-circle"></i>Diesel</div>
+                    <div><i class="fas fa-check-circle"></i>Automatic</div>
+                    <div><i class="fas fa-check-circle"></i>5 doors</div>
+                    <div><i class="fas fa-check-circle"></i>Full equipment</div>
+                </div>
+                <div class="car3 d">
+                    <div><i class="fas fa-check-circle"></i>2019 year</div>
+                    <div><i class="fas fa-check-circle"></i>Diesel</div>
+                    <div><i class="fas fa-check-circle"></i>Manual</div>
+                    <div><i class="fas fa-check-circle"></i>5 doors</div>
+                    <div><i class="fas fa-check-circle"></i>Full equipment</div>
+                </div>
+            </div>
+            <h1>Check out at all our vehicles</h1>
+            <a href="./vehicles.html">
+                <div id="carsButton">Rent a car vehicles</div>
+            </a>
+        </div>
+    </div>
+
+    <div id="terms">
+        <hr>
+        <p>Read about the basic conditions for rent a car vehicles.</p>
+        <a href="./terms.html">
+            <button>Read terms</button></a>
+        <hr>
+    </div>
+
+    <div id="logos">
+        <div class="logo">
+            <i class="fas fa-heart"></i>
+            <div>150.000 + <br>SATISFIED CUSTOMERS</div>
+        </div>
+        <div class="logo"><i class="fas fa-car"></i>
+            <div>15 + <br> VEHICLES IN A PARKING PLACE</div>
+        </div>
+        <div class="logo"><i class="fas fa-map-marker-alt"></i></i>
+            <div>IN 4 <br>LARGEST CITIES IN SERBIA</div>
+        </div>
+        <div class="logo"><i class="fas fa-clock"></i>
+            <div>00:00 - 24:00 <br>WE WORK NON-STOP</div>
+        </div>
+        <div class="logo"><i class="fas fa-comment-dots"></i>
+            <div>+381 64 333 555 <br> CONTACT US AT ANY TIME</div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <h1>Contact us</h1>
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3365.3977329299632!2d20.418698370544693!3d44.822565128514086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a656f898f0007%3A0x1fa5f55e3e50da66!2sRent%20A%20Car%20Beograd%20-%20Stars!5e0!3m2!1ssr!2srs!4v1642161534408!5m2!1ssr!2srs"
+                allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div id="info">
+            <div>
+                <i class="fas fa-phone"></i>
+                <h3>PHONE</h3>
+                <h4>+381 64 333 555</h4>
+            </div>
+            <div class="email"><i class="fas fa-envelope-open-text"></i>
+                <h3>E-MAIL</h3>
+                <h4>rentacarbg@gmail.com</h4>
+                <h4>rentacarns@gmail.com</h4>
+                <h4>rentacarnis@gmail.com</h4>
+                <h4>rentacarkg@gmail.com</h4>
+            </div>
+            <div class="offices"><i class="fas fa-map-marked-alt"></i>
+                <h3>OFFICES</h3>
+                <h4>Milutina Milankovića 5, Beograd</h4>
+                <h4>Vuka Karadžića 109, Novi Sad</h4>
+                <h4>Vojvode Stepe 20, Niš</h4>
+                <h4>Kraljice Natalije 23, Kragujevac</h4>
+            </div>
+            <div><i class="fas fa-user-friends"></i>
+                <h3>SOCIAL MEDIA</h3>
+                <a href="https://www.facebook.com/vwfsrentacarUK/" target="_blank">
+                    <h4>Facebook</h4>
+                </a>
+                <a href="https://www.instagram.com/rent_a_car_bamiron/?hl=en" target="_blank">
+                    <h4>Instagram</h4>
+                </a>
+                <a href="https://www.linkedin.com/company/rentalcars-com/" target="_blank">
+                    <h4>LinkedIn</h4>
+                </a>
+
+            </div>
+        </div>
+        <hr>
+        <img src="./img/Rent a Car-logo.png" alt="">
+
+    </div>
+    <div id="icons">
+        <div>
+            <i class="fab fa-cc-visa"></i>
+            <i class="fab fa-cc-mastercard"></i>
+            <i class="fab fa-cc-amex"></i>
+            <i class="fab fa-cc-paypal"></i>
+            <i class="fab fa-cc-diners-club"></i>
+        </div>
+        <div>
+            <a href="https://www.facebook.com/vwfsrentacarUK/" target="_blank">
+                <i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="https://www.instagram.com/rent_a_car_bamiron/?hl=en" target="_blank">
+                <i class="fab fa-instagram-square"></i>
+            </a>
+            <a href="https://www.linkedin.com/company/rentalcars-com/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
